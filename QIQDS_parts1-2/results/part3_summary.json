@@ -1,0 +1,153 @@
+{
+ "fig3": {
+  "1": {
+   "threshold_n": 908758.0236081663,
+   "rate_1e10": 34541651.44986719,
+   "paper_threshold_n (digitised)": 883000.0,
+   "paper_rate_1e10 (digitised)": 32900000.0
+  },
+  "0.96": {
+   "threshold_n": 2457962.7245677663,
+   "rate_1e10": 21078367.57303297,
+   "paper_threshold_n (digitised)": 2390000.0,
+   "paper_rate_1e10 (digitised)": 20000000.0
+  },
+  "0.92": {
+   "threshold_n": 9607698.211730424,
+   "rate_1e10": 11403392.735183137,
+   "paper_threshold_n (digitised)": 9390000.0,
+   "paper_rate_1e10 (digitised)": 10800000.0
+  },
+  "0.88": {
+   "threshold_n": 149537797.35397837,
+   "rate_1e10": 3284845.2726435293,
+   "paper_threshold_n (digitised)": 146000000.0,
+   "paper_rate_1e10 (digitised)": 3110000.0
+  }
+ },
+ "fig4": {
+  "p=0": {
+   "v_min": 0.8620825367844244,
+   "rate_V1": 34541796.444663286,
+   "paper": 0.8622
+  },
+  "p=0.05": {
+   "v_min": 0.8536317649732564,
+   "rate_V1": 24492076.17935409
+  },
+  "p=0.1": {
+   "v_min": 0.8512856084439434,
+   "rate_V1": 18114924.53747025
+  },
+  "p=0.15": {
+   "v_min": 0.8505018928366394,
+   "rate_V1": 13213770.064637082
+  },
+  "p optimised": {
+   "v_min": 0.8504760237672654,
+   "paper": 0.8508
+  }
+ },
+ "fig5": {
+  "1e+10": {
+   "v_min_p0": 0.8620825367844244,
+   "paper_p0": 0.8622,
+   "v_min_p=0.155": 0.8504840483779539,
+   "v_min_popt": 0.8504760237672654,
+   "paper_popt": 0.8508
+  },
+  "1e+09": {
+   "v_min_p0": 0.8685429802895087,
+   "paper_p0": 0.8686,
+   "v_min_p=0.09": 0.8605290073515468,
+   "v_min_popt": 0.8605205488822015,
+   "paper_popt": 0.8608
+  },
+  "1e+08": {
+   "v_min_p0": 0.883648687380962,
+   "paper_p0": 0.8835,
+   "v_min_p=0.035": 0.8798395104274556,
+   "v_min_popt": 0.8798260918636612,
+   "paper_popt": 0.8799
+  }
+ },
+ "fig6": {
+  "[73]": {
+   "threshold_n": 1044931.6344053317,
+   "hours_to_threshold": 5.572968716828436,
+   "rate_1e10": 40492441.02968566,
+   "paper_threshold_n (digitised)": 809000.0,
+   "paper_rate_1e10 (digitised)": 39700000.0
+  },
+  "[74]": {
+   "threshold_n": 29392656.254815213,
+   "hours_to_threshold": 659619.7543719751,
+   "rate_1e10": 9920386.714493774,
+   "paper_threshold_n (digitised)": 22300000.0,
+   "paper_rate_1e10 (digitised)": 9680000.0
+  },
+  "[75]": {
+   "threshold_n": 2390146.7096851347,
+   "hours_to_threshold": 1234.6453202347054,
+   "rate_1e10": 28160584.58911054,
+   "paper_threshold_n (digitised)": 1850000.0,
+   "paper_rate_1e10 (digitised)": 27400000.0
+  },
+  "markers": {
+   "star [73] n=1.5e6": 765.0550818562798,
+   "diamond [75] n=2.4e6": 10.563834557163782,
+   "paper (digitised)": {
+    "star [73] n=1.5e6": 1300.0,
+    "diamond [75] n=2.4e6": 700.0
+   },
+   "hours [73] 1.5e6": 8.0,
+   "hours [75] 2.4e6": 1239.7350993377484
+  },
+  "check: omega_thr of Ref. [73] from Eq. (B10)": {
+   "computed": 0.8255376291227473,
+   "Ref. [73]": 0.825538
+  }
+ },
+ "fig7": {
+  "real/1e14": {
+   "L_max_km": 17.817789991167032,
+   "paper_km": 17.82,
+   "rate_L0": 97949.37744886396,
+   "paper_rate_L0 (digitised)": 96000.0
+  },
+  "real/2e14": {
+   "L_max_km": 29.684385804244773,
+   "paper_km": 28.87,
+   "rate_L0": 284245.84850759816,
+   "paper_rate_L0 (digitised)": 280000.0
+  },
+  "ideal/1e14": {
+   "L_max_km": 111.20608786091618,
+   "paper_km": 111.46,
+   "rate_L0": 1560528.8942225168,
+   "paper_rate_L0 (digitised)": 1630000.0
+  },
+  "ideal/2e14": {
+   "L_max_km": 126.32376524091403,
+   "paper_km": 126.53,
+   "rate_L0": 3236484.264619011,
+   "paper_rate_L0 (digitised)": 3350000.0
+  },
+  "real, explicit-g2 reading (no fit)": {
+   "1e+14": 12.85219163482328,
+   "2e+14": 24.25028727580424
+  },
+  "realistic kappa (Eq. C13, fitted on N = 1e14)": 1.5446,
+  "ideal: S, Q at L = 0": [
+   2.6305840744244335,
+   0.03478311487760044
+  ],
+  "ideal: P_H at L = 0": 1.2406445312418413e-05,
+  "real: S, Q at L = 0": [
+   2.4495728678801756,
+   0.0665084816296303
+  ],
+  "real: P_H at L = 0": 1.2657950427600017e-05,
+  "hours for 1e14 rounds at 75 MHz (paper: ~370 h)": 370.3703703703703
+ }
+}

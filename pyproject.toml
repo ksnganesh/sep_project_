@@ -1,0 +1,28 @@
+
+[project]
+name = "sep-project"
+version = "0.1.0"
+description = "Device-Independent Quantum Digital Signatures Research Implementation"
+readme = "README.md"
+authors = [
+    { name = "Syntaxforall", email = "koradaganesh71@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pytest>=9.2.0",
+    "qiskit>=2.6.2",
+    "qiskit-aer>=0.18.2",
+    "qutip>=5.3.1",
+    "scipy>=1.18.1",
+    "sequence>=1.3.1",
+]
+
+[tool.uv.build-backend]
+module-name = "diqds"
+module-root = "QIQDS_parts1-2"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

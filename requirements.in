@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pytest
+qutip
+qiskit
+qiskit_aer
+SeQUeNCe
